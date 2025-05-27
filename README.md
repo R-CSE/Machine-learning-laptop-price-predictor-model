@@ -25,4 +25,10 @@ Develop a web application using Streamlit where users can input laptop configura
 Deploy the trained model and its integrated api on Streamlit Share.
 # User Interface
 ![image](https://github.com/user-attachments/assets/3888c52a-080c-4167-ba7c-4d8794d8ca56)
+# Conclusions
+This project is a machine learning-based Laptop Price Predictor that uses regression models to estimate laptop prices based on their specifications. The key steps involve data preprocessing, feature engineering, model training, and evaluation.
+
+Categorical features such as Company, TypeName, CPU brand, GPU brand, and Operating System are transformed using OneHotEncoding via a ColumnTransformer, which converts them into numerical form suitable for machine learning. These transformed features, along with the original numerical ones, are passed to a Random Forest Regressor, an ensemble learning algorithm that builds multiple decision trees and averages their outputs for robust prediction.
+
+The entire process — from encoding to model training — is managed through a Pipeline to streamline data handling and ensure consistency. The model is trained using the fit() method and evaluated on a test set using R² score (to measure prediction quality) and Mean Absolute Error (MAE) (to assess average error).
 
