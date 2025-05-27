@@ -24,3 +24,5 @@ Develop a web application using Streamlit where users can input laptop configura
 **Deployment:**
 Deploy the trained model and its integrated api on Streamlit Share.
 # User Interface
+![image](https://github.com/user-attachments/assets/3888c52a-080c-4167-ba7c-4d8794d8ca56)
+
